@@ -30,9 +30,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/mdb-ui-kit/css/mdb.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/mdb-ui-kit/js/mdb.es.min.js"
+            ]
           },
           "configurations": {
             "production": {
